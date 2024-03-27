@@ -4,6 +4,8 @@
  */
 package com.mycompany.trabajopractico3;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author sapat
@@ -134,6 +136,15 @@ public class Tp3 extends javax.swing.JFrame {
 
     private void jBconfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBconfirmarActionPerformed
         // TODO add your handling code here:
+        
+        if( jTemail.getText().equalsIgnoreCase("alumno@ulp.edu.ar")){
+            if (jPcontrasenia.getText().equalsIgnoreCase("12345678")) {
+                 JOptionPane.showMessageDialog(this, "El usuario y contraseña son correctos");
+                }else{
+                JOptionPane.showMessageDialog(this, "El usuario y contraseña son incorrectos");
+            }
+            
+        }
     }//GEN-LAST:event_jBconfirmarActionPerformed
 
     private void jPcontraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPcontraseniaActionPerformed
