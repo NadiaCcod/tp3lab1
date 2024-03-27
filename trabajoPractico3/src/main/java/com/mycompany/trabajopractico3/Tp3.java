@@ -1,14 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package com.mycompany.trabajopractico3;
 
 import javax.swing.JOptionPane;
 
 /**
  *
- * @author sapat
+ * @authors: Marianela Rocamora,Nadia Codina, Marianela Rocamora, Echenique Ramiro
  */
 public class Tp3 extends javax.swing.JFrame {
 
